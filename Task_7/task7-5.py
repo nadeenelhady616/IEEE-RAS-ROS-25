@@ -1,0 +1,15 @@
+from linkedList import LinkedList
+
+list1 = LinkedList()
+list1.append(1)
+list1.append(2)
+list1.append(3)
+list1.append(4)
+print("Initial Linked List:")
+list1.display()
+list1.append(5)
+print("After inserting a new node 5:")
+list1.display()
+list1.delete(2)
+print("After deleting node 2:")
+list1.display()
